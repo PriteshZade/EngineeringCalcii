@@ -22,8 +22,12 @@ public class Calculator {
     public double div(double a, double b) {
         return a / b;
     }
-    
+
     public double modulo(double a, double b) {
         return a % b;
+    }
+
+    public double Sqrt(double a) {
+        return Math.sqrt(a);
     }
 }
