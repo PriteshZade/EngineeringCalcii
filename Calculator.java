@@ -35,4 +35,9 @@ public class Calculator {
         double s = x * x;
         return s;
     }
+
+    public double cube(double a) {
+        double b = a * a * a;
+        return b;
+    }
 }
