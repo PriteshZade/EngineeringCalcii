@@ -30,4 +30,9 @@ public class Calculator {
     public double Sqrt(double a) {
         return Math.sqrt(a);
     }
+
+    public double square(double x) {
+        double s = x * x;
+        return s;
+    }
 }
